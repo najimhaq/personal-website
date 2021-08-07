@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+        /* First Section Start */
+
+.first-section {
+    position: relative;
+    background-image: url("images/header-bg.png");
+    width: 100%;
+    height: 100%;
+}
+
+.left {
+    position: absolute;
+    width: 50%;
+    left: 10%;
+    top: 25%;
+    width: 38%;
+}
+
+h5 {
+    font-size: large;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 35px;
+    color: crimson;
+}
+
+#first-text {
+    color: dimgray;
+    line-height: 30px;
+    margin: 40px 0;
+}
+a {
+    text-decoration: none;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #D31027 0%, #EA384D 51%, #D31027 100%);
+}
+.btn-grad {
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.right {
+    position: absolute;
+    width: 50%;
+    left: 55%;
+    top: 40px;
+}
+.right img {
+    width: 65%;
+}
+
+        /* First Section End */
+
+        /* Second Section Start */
+
+.second-section {
+    position: relative;
+    background-image: url("images/biography-bg.png");
+    width: 100%;
+    height: 100%;
+}
+.left-section {
+    position: absolute;
+    width: 50%;
+    left: 10%;
+    top: 10%;
+    width: 38%;
+}
+.right-section {
+    position: absolute;
+    width: 38%;
+    left: 55%;
+    top: 30%;
+}
+#txt {
+    color: black;
+    font-weight: 400;
+}
+#second-text {
+    color: dimgray;
+    line-height: 30px;
+    margin: 40px 0;
+}
+
+        /* Second Section End */
+
+        /* Third Section Start */
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+    margin: 55px 0;
+    font-weight: 400;
+}
+
+.work-column {
+    float: left;
+    padding: 35px;
+    width: 33.33%;
+}
+.work-column #pic {
+    width: 100%;
+    height: auto;
+    transition: 0.5s ease-out;
+}
+
+.work-column #pic:hover {
+    box-shadow: 2px 2px 40px rgba(0, 0, 0, .2);
+}
+.clearfix {
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+        /* Third Section Start */
+
+        /* Clint Message Start */
+
+.clint-say {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+}
+#speech {
+    color: black;
+    font-weight: 400;
+    margin: 60px 0;
+}
+#title {
+    margin: 15px 0;
+}
+h4 {
+    font-weight: 500;
+}
+#title2 {
+    line-height: 30px;
+    margin: 40px 0;
+}
+.btn {
+    text-align: center;
+}
+.btn p {
+    background-image: linear-gradient(to right, #D31027 0%, #EA384D 51%, #D31027 100%);
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 15px 70px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 80px;
+    transition: 0.5s;
+
+}
+.btn p:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, .5);
+}
+.btn p span{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+        /* Clint Message Start */
+       
+       
+        /* Footer start */
+
+        footer p{
+    text-align: center;
+    font-weight: 300;
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+
+        /* Footer End */
